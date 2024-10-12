@@ -6,7 +6,7 @@ use App\Repository\PassagerRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: PassagerRepository::class)]
-class Passager extends Personne
+class Passager extends User
 {
 /*    #[ORM\Id]
     #[ORM\GeneratedValue]
